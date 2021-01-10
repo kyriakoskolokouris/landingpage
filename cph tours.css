@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(221, 219, 219);
+  font-family: Hack, monospace;
+}
+
+#header {left: 80px;}
+
+
+.header-img { max-width: 200px;
+  align-content: left;
+  float: left;
+}
+
+
+
+#myHeader {
+  padding: 0;
+  text-align: none;
+  background: #0c0849;
+  color: white;
+  font-size: large;
+  height: 73px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#navbar {
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+#navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    padding-bottom: 20px;
+  }
+
+ li {
+    display: inline;
+    float: center;
+    padding-bottom: 0px;
+    
+  }
+ 
+  .nav-link {
+    display: inline-block;
+    color: rgb(235, 223, 223);
+    text-decoration: none;
+    padding: 25px 30px 10px 30px;
+    text-transform: uppercase;
+    margin-left: 150px;
+    position: relative;
+    
+  }
+
+  a {
+    font-family: Hack, monospace;
+    font-size: large;
+    position: relative;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:white;
+  }
+
+  a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out 0.1s;
+  }
+
+   a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+
+
+
+#video {
+  iframe {
+    display: block;
+    margin: auto; 
+    width: 
+
+  }
+}
+
+
+iframe {
+  display: block;
+  padding: 30px;
+  margin: auto; 
+  width: 800px;
+  height: 450px;
+  align-content: center;
+  margin-left: 302px;
+}
+
+#lp {
+  padding: 30px;
+  text-align: center;
+  margin-left: 2px;
+
+}
+
+.product {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  width: calc(94% / 3);
+  height: 222px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: rgb(74, 50, 182);
+  color: rgb(151, 142, 142);
+  padding: 25px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 10px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f10f0f;
+  color: white
+  font-weight: 500;
+}
