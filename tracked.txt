@@ -1,4 +1,0 @@
-LINE A
-LINE B
-LINE C
-LINE D
